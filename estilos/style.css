@@ -1,2 +1,24 @@
 @charset "utf-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700;800&display=swap');
+
+:root{
+    --cor1: #419E7D;
+    --cor2: #275E4B;
+    --cor3: #5BDEB0;
+    --cor4: #60EBBA;
+    --cor5: #51C49C;
+    --fonte-padrao: arial, Verdana, Helvetica, sans-serif;
+    --fonte-personalizada: 'Roboto Slab', serif; 
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--fonte-padrao);
+    box-sizing: border-box;
+}
+
+body{
+    
+}
