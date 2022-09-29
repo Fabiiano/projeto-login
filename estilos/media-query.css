@@ -1,4 +1,5 @@
 @charset "utf-8";
+
 /*tablet*/
 @media screen and (min-width: 768px) and (max-width: 992px) {
   
@@ -8,6 +9,7 @@
   
   section#login {
     width: 85vw;
+    height: 350px;
   }
 
   section#login > div#imagem {
@@ -22,18 +24,20 @@
   }
 
   form > input[type=submit]{
-    width: 50%;   
+    width: 70%;   
   }
 
   form > a.botao {
-    width: 50%;
+    width: 70%;
   }
 
   form > div.campo {
-    width: 50%;
+    width: 70%;
   }
 
 }
+
+
 /*telas grandes*/
 @media screen and (min-width: 992px) {
 
@@ -43,6 +47,7 @@
 
   section#login {
     width: 950px;
+    height: 350px;
   }
 
   section#login > div#imagem {
@@ -62,19 +67,28 @@
 
   div#formulario > p {
     font-size: 0.8em;
+    margin: 10px 0;
   }
 
   form > input[type=submit]{
-    width: 30%;
+    width: 45%;
     height: 40px;    
   }
 
   form > a.botao {
-    width: 30%;
+    width: 45%;
   }
 
   form > div.campo {
-    width: 30%;
+    width: 45%;
+  }
+
+  div.campo > i {
+    font-size: 1.5em;
+  }
+
+  div.campo > input {
+    transform: translateY(-10px);
   }
 
 }
