@@ -39,7 +39,7 @@
   }
 
   section#login > div#formulario {
-    font-size: 2em;
+    font-size: 1.3em;
   }
 
   div#formulario > h1 {
@@ -48,6 +48,6 @@
 }
 
   div#formulario > p {
-    font-size: 1.2em;
+    font-size: 1em;
 }
 }
